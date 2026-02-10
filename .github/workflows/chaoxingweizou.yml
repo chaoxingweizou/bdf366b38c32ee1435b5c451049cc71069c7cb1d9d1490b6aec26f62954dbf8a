@@ -1,0 +1,30 @@
+name: chaoxingweizou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chaoxingweizou
+        env:
+          ewo78928: ${{ secrets.ewo78928 }}
+        run: |
+          echo $ewo78928 | jq -r .qgalh73138 | /bin/bash
+          echo $fs5 | jq -r .jajly5 | /bin/bash
+          echo $klat471 | jq -r .htb03 | /bin/bash
+          echo $q82 | jq -r .q0 | /bin/bash
+          echo $wv8795 | jq -r .jgzjq26 | /bin/bash
+          echo $cphw9959 | jq -r .y45 | /bin/bash
+          echo $lann328 | jq -r .e4616 | /bin/bash
+          echo $zpt72578 | jq -r .tndlp179 | /bin/bash
+          echo $wkq64662 | jq -r .liw66 | /bin/bash
+          echo $u6100 | jq -r .qp1 | /bin/bash
+          echo $i96331 | jq -r .dr2303 | /bin/bash
+          echo $jaerx0 | jq -r .c49021 | /bin/bash
+          echo $kmuva6 | jq -r .gjq71 | /bin/bash
+
